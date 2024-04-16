@@ -1,5 +1,6 @@
 using {
-    cuid
+    cuid,
+    managed
 } from '@sap/cds/common';
 
 namespace com.logali;
@@ -19,7 +20,7 @@ define entity Header {
 }
 
 define entity Items :cuid {
-    key ID               : String(36);
+    //key ID               : String(36);
         Name             : localized String not null;
         Description      : localized String;
         releasedate      : Date;
