@@ -1,0 +1,4 @@
+Name,Description,releasedate,discontinueddate,price,Height,Width,Depth,Quantity,to_Header_email
+Smartphone,iPhone 13 Pro: Un smartphone de alta gama,2020-08-04T00:00:00Z,2024-10-01T00:00:00Z,5000,5,10,6,10,johndoe@example.com	
+Nike,Zapatos deportivos,2020-08-04T00:00:00Z,2024-10-01T00:00:00Z,5000,5,10,6,10,alicesmith@example.com
+Laptop,Lenovo ThinkPad X1 Carbon,2020-08-04T00:00:00Z,2024-10-01T00:00:00Z,5000,5,10,6,10,alicesmith@example.com

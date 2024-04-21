@@ -1,0 +1,32 @@
+### Get Orders Header
+GET http://localhost:4004/odata/v4/managed-orders/Headers
+
+### Create Order
+POST http://localhost:4004/odata/v4/managed-orders/Headers HTTP/1.1
+Content-Type: application/json
+
+{          
+    "email": "henrysotelo@gmail.es",
+    "firstname": "Borja",
+    "lastname": "de las Heras",
+    "country": "España",
+    "createon": "2023-12-16",
+    "orderstatus": 1,
+    "deliverydate": "1992-01-01T00:00:00Z",
+    "imageurl": "/orders/webapp/assets/customer-8.png"
+}
+
+### Update Order
+PUT http://localhost:4004/odata/v4/managed-orders/Headers('alicesmith@example.com') HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstname": "Henry",
+    "lastname": "Sotelo",
+    "country": "Colombia",
+    "orderstatus": 5
+}
+
+###Delete Order
+DELETE http://localhost:4004/odata/v4/managed-orders/Headers('alicesmith@example.com')
+
