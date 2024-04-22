@@ -28,5 +28,5 @@ Content-Type: application/json
 }
 
 ###Delete Order
-DELETE http://localhost:4004/odata/v4/managed-orders/Headers('alicesmith@example.com')
+DELETE http://localhost:4004/odata/v4/managed-orders/Headers('henrysotelo@gmail.es')
 

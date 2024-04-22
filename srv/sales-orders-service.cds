@@ -1,8 +1,6 @@
 using {com.logali.orders as logali} from '../db/schema';
 
 service ServiceOrders {
-
-
     entity header        @(
         Capabilities.Insertable: true,
         Capabilities.Updatable : true
