@@ -1,6 +1,6 @@
 email,firstname,lastname,country,createon,deliverydate,orderstatus,imageurl
-johndoe@example.com,John,Doe,USA,2024-04-15,2024-04-20,Shipped,https://example.com/images/johndoe.jpg
-alicesmith@example.com,Alice,Smith,UK,2024-04-14,2024-04-19,Delivered,https://example.com/images/alicesmith.jpg
-robertbrown@example.com,Robert,Brown,Canada,2024-04-13,2024-04-18,Processing,https://example.com/images/robertbrown.jpg
-emilyjones@example.com,Emily,Jones,Australia,2024-04-12,2024-04-17,Cancelled,https://example.com/images/emilyjones.jpg
-michaelwang@example.com,Michael,Wang,Germany,2024-04-11,2024-04-16,Delivered,https://example.com/images/michaelwang.jpg
+johndoe@example.com,John,Doe,USA,2024-04-15,2024-04-20,1,/order/webapp/assets/bread.jpg
+alicesmith@example.com,Alice,Smith,UK,2024-04-14,2024-04-19,2,/order/webapp/assets/coffee.jpg
+robertbrown@example.com,Robert,Brown,Canada,2024-04-13,2024-04-18,3,/order/webapp/assets/milk.jpg
+emilyjones@example.com,Emily,Jones,Australia,2024-04-12,2024-04-17,1,/order/webapp/assets/lemonade.jpg
+michaelwang@example.com,Michael,Wang,Germany,2024-04-11,2024-04-16,3,/order/webapp/assets/dvd-player.jpg
